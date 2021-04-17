@@ -1,11 +1,15 @@
 六角學院講義:https://quip.com/pFUnA7u75HbL
 
-1.為什麼要學git
+1.什麼是git?什麼是github?
+git:版本控制軟體，可藉由他產生數據儲存庫(git epository)  
+github:像dropbox的遠端儲存庫，不過它是儲存git的
+
+2.為什麼要學git
 簡單來說就是可以做版本控制，
 不論是管理自己的程式碼或是小組合作
 可以看自己做了幾次更新，可以回到過去的紀錄
 
-2.git的環境安裝跟環境設定指令
+3.git的環境安裝跟環境設定指令
 【環境安裝】
     1.安裝git、sourcetree
     2.github註冊
@@ -19,27 +23,27 @@
     1.輸入姓名：git config --global user.name "XXX"
     2.輸入個人的 email：git config --global user.email "XXX@gmail.com"
     3.查詢 git 設定內容：git config --list
+    ps.可以用覆蓋的方式重寫
 
-
-3.git常用指令+要會畫基本指令關係圖
+4.git常用指令+要會畫基本指令關係圖
     git status
     git add .
     git commit -m "備註"
     git log :觀看commit歷史紀錄
-    git push -u origin master
+    git push -u origin main :推到github上
 
-4.sourcetree視覺化見git
+5.sourcetree視覺化見git
 用點擊的方式取代指令
 
-5.綁定遠端數據庫(github)
+6.綁定遠端數據庫(github)
+git remote add origin https://github.com/s0513/git_learning0417.git
 進入git資料夾看config檔有沒有綁定成功
 
-6.做git pages
+7.做git pages
 找到一個免費放伺服器的地方
 影片8/38
 
-7.本地與遠端數據庫
-伺服器遠端概念
+
 
     
 

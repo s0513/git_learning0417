@@ -1,6 +1,27 @@
 六角學院講義:https://quip.com/GL4gAFIc2KdI
 https://w3c.hexschool.com/git/cfdbd310
 
+1.git縮寫
+    git config --global alias.co checkout
+    git config --global alias.br branch
+    git config --global alias.st status
+    git config --global alias.ci commit
+
+2.觀看所有 config 的設定：
+    C:\Users\$USER\.gitconfig
+
+3.熱門遠端儲存庫有:Github、Bitbucket和Gitlab
+    GitHub:擁有 GitHub Pages 功能，可擁有私人數據庫，免費方案是 3 人以下
+    Bitbucket:可擁有私人數據庫，免費方案是五人以下團隊
+    GitLab:自架 Git 伺服器，有提供 web 視覺化管理介面，常用於企業內部開發
+
+4.備份
+git remote add __名字__ https://github.com/s0513/git_learning0417.git
+git branch -M main
+git push -u __名字__ main
+
+
+
 
 
 
