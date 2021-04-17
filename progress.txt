@@ -18,6 +18,9 @@
 5.綁定遠端數據庫(github)
 進入git資料夾看config檔有沒有綁定成功
 
+6.做git pages
+影片8/38
+
     
 
 
