@@ -1,6 +1,25 @@
-為什麼要學git
-git的環境安裝跟環境設定指令
-git常用指令
+1.為什麼要學git
+
+2.git的環境安裝跟環境設定指令
+【環境安裝】
+    1.安裝git、sourcetree
+    2.github註冊
+
+【環境安裝指令】
+    git init 開新資料庫
+    git --version 確認有沒有安裝好
+
+3.git常用指令
+
+
+4.sourcetree視覺化見git
+用點擊的方式取代指令
+
+5.綁定遠端數據庫(github)
+進入git資料夾看config檔有沒有綁定成功
+
+    
+
 
 
 
